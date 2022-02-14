@@ -32,7 +32,7 @@ Router.post('/add-all-courses', async (req, res) => {
   })
 
   .get('/all-taken', async (req, res) => {
-    const users = await UserModel.find({ 'taken.0': { $exists: true } }).select([
+    const users = await UserModel.find({ 'taken.0': { $exists: true }, role: 'student' }).select([
       'name',
       '_id',
       'taken',

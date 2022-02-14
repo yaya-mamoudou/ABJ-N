@@ -8,3 +8,13 @@ a{
   text-decoration: none;
   color: inherit;
 }
+
+table, th, td, thead {
+  border: 1px solid rgb(129, 129, 129);
+  border-collapse: collapse;
+  color: rgb(61, 61, 61) !important;
+}
+
+td,th{
+  padding: 0.5rem;
+}
