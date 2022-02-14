@@ -1,0 +1,21 @@
+.container {
+    background: #fff;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.forms {
+    background: #fff;
+    /* height: 40vh; */
+    margin: auto;
+    padding: 70px;
+    width: 70vw;
+    background: #eee;
+}
+.search {
+    background: #E7E7E7;
+    width: 237px;
+    height: 24px;
+    padding-left: 10px;
+    
+}

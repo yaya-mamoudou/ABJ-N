@@ -1,0 +1,16 @@
+.btn {
+    
+    position: absolute;
+    background: #666666;
+    border-radius: 7px;
+    width: 120px;
+    height: 30px;
+}
+.question {
+    /* padding: 40px; */
+    /* margin: 30px; */
+}
+.answer {
+    padding: 5px;
+    margin: 5px;
+}

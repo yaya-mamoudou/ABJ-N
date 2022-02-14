@@ -1,0 +1,14 @@
+.nav {
+    /* position: absolute; */
+    width: 100%;
+    background: #7A0303;
+    padding: 0.5rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.text {
+    text-align: right;
+    margin-right: 0px;
+}
